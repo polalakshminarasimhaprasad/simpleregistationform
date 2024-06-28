@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/submit_registration" method="post">
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+        </div><br><br>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+        </div><br><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div><br><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div><br><br>
+        <div>
+            <label for="confirmpassword">Confirm Password:</label>
+            <input type="password" id="confirmpassword" name="confirmpassword" required>
+        </div><br><br>
+        <div>
+            <label for="num">number:</label>
+            <input type="tel" id="num" name="number" required>
+        </div><br><br>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div><br><br>
+        <div>
+        <label for="gender">gender </label>
+        <input type="radio" id="gender" name="gender" value="male" /><label
+          >male</label
+        >
+        <input type="radio" id="gender" name="gender" value="female" /><label
+          >female</label
+        >
+        </div><br /><br />
+        <div>
+            <label for="box">selact the subject:</label>
+            <input type="checkbox" id="box" name="ytrt" required value="cse">
+            <label for="box">cse</label>
+
+            <input type="checkbox" id="gxg" name="fdg" required value="cse" >
+            <label for="gxg">ece</label>
+        </div><br><br>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
